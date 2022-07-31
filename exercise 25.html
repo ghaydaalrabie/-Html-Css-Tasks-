@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pic 1</title>
+
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+
+
+    .main-img {
+        max-width: 100%;
+    }
+
+
+    .parent {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-rows: 60% 40%;
+        width: 100%;
+        grid-gap: 10px 10px;
+        margin: 0 auto;
+        align-items: center;
+        padding: 60px;
+
+
+    }
+
+    .Colum1,
+    .colum2,
+    .colum3 {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        border: 1px solid #c6b5b5;
+    }
+
+    .Colum-pic {
+        grid-row: 1 / span 2;
+
+    }
+
+    .colunm-Text {
+        padding-left: 10px
+    }
+
+    .colum-text2 {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 10px
+    }
+
+    .profile {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .name {
+        font-size: 10px;
+    }
+
+           
+        
+    
+    
+     @media (max-width: 800px) {
+        .parent {grid-template-columns: 50%  50% ;
+      
+       
+      }
+
+          
+       
+      }
+      @media (min-width: 801px) and (max-width: 1399px) {
+        .parent {grid-template-columns:  50%  ;
+      
+       
+      }
+
+          
+       
+      }
+
+
+</style>
+
+<body>
+
+
+    <div class="parent">
+        <div class="Colum1">
+            <div class="Colum-pic">
+                <img class="main-img" src="imgs/photo-1513002749550-c59d786b8e6c.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="colunm-Text">
+                <h4>Best Mountain Trails 2020</h4>
+                <p style="font-size: 13px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+                    obcaecati? Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetu
+                    adipisicing Loremmet</p>
+            </div>
+
+            <div class="colum-text2">
+                <img class="profile"
+                    src="https://i.pinimg.com/564x/a6/58/32/a65832155622ac173337874f02b218fb--people-icon-avatar.jpg"
+                    width="30px" height="40px">
+                <div>
+
+                    <p class="name"><b>John smith</b> <br /> Age 18</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="colum2">
+            <div class="Colum-pic">
+                <img class="main-img" src="imgs/Ca22.PNG" alt="" width="100%" height="100%">
+            </div>
+            <div class="colunm-Text">
+                <h4>15 Rivers in Norway</h4>
+                <p style="font-size: 13px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+                    obcaecati? Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetu
+                    adipisicing Loremmet</p>
+            </div>
+
+            <div class="colum-text2">
+                <img class="profile"
+                    src="https://i.pinimg.com/564x/a6/58/32/a65832155622ac173337874f02b218fb--people-icon-avatar.jpg"
+                    width="30px" height="40px">
+                <div>
+
+                    <p class="name"><b>John smith</b> <br /> Age 18</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="colum3">
+            <div class="Colum-pic"> <img class="main-img" src="imgs/33.PNG" alt=""
+                    width="100%" height="100%"></div>
+            <div class="colunm-Text">
+                <h4>5 National Forests across the U.S</h4>
+                <p style="font-size: 13px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+                    obcaecati? Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetu
+                    adipisicing Loremmet</p>
+            </div>
+
+            <div class="colum-text2">
+                <img class="profile"
+                    src="https://i.pinimg.com/564x/a6/58/32/a65832155622ac173337874f02b218fb--people-icon-avatar.jpg"
+                    width="30px" height="40px">
+                <div>
+
+                    <p class="name"><b>John smith</b> <br /> Age 18</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
